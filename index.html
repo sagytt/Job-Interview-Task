@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>GO-BE-Marketing</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col-la-12">
+                    <!--Form without header-->
+                    <div class="card card-image" style="background-image: url('https://mdbootstrap.com/img/Photos/Others/pricing-table7.jpg'); width: 25rem;">
+                        <div class="text-white rgba-stylish-strong py-8 px-5 z-depth-4">
+
+                            <!--Header-->
+                            <div class="text-center">
+                                <h3 class="white-text mb-5 mt-4 font-weight-bold"><strong>Task</strong></h3>
+                            </div>
+
+                            <form id="myForm">
+                                <div class="md-form">
+                                    <label for="name">Name</label>
+                                    <input type="text" class="form-control white-text" id="name"  placeholder="Enter Your Name"><span class="errors" id="nameerror"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="phone">Phone Number</label>
+                                    <input type="number" class="form-control white-text" id="phone" placeholder="Enter Your Phone Number"><span class="errors" id="phoneerror"></span>
+                                </div>
+
+
+                                <div class="form-group">
+                                    <label for="birthday">Birthdate</label>
+                                    <input type="datetime-local"  id="birth">
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="title">Gender</label><br>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="1">Female
+                                    </label>
+                                    <label class="radio-inline">
+                                        <input type="radio" name="gender" value="2" >Male
+                                    </label>
+                                    <span class="errors" id="gendererror"></span>
+                                </div>
+
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input" id="confirm" value="check">
+                                    <label class="form-check-label" for="confirm">Agree to terms</label>
+                                    <span class="errors" id="confirmerror"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <input type="hidden" id="generateId">
+                                </div>
+
+                                <button type="submit" class="btn btn-success btn-block btn-rounded z-depth-1 submit-form">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="js/app.js?v=1.0.2"></script>
+                </body>
+            </html>
